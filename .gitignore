@@ -1,0 +1,27 @@
+# Secrets — nothing with a key or password ever gets committed
+.env
+*.env
+credentials.json
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoint copies
+.ipynb_checkpoints/
+
+# Conda / virtualenv folders, if one lives in the project
+.venv/
+env/
+
+# Scraped data — raw HTML and intermediate pulls
+data/raw/
+*.html
+*.pkl
+
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/

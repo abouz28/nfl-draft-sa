@@ -1,0 +1,20 @@
+name: nfl-draft-sa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - requests
+  - scikit-learn
+  - numpy
+  - seaborn
+  - nltk
+  - beautifulsoup4
+  - jupyter
+  - matplotlib
+  - tqdm
+  - python-dotenv
+  - ipykernel
+  - lxml
+  - pandas
+  - statsmodels
