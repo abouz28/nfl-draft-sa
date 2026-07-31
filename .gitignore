@@ -17,6 +17,7 @@ env/
 # Scraped data — raw HTML and intermediate pulls
 data/raw/
 *.html
+!site/**/*.html
 *.pkl
 
 # macOS
